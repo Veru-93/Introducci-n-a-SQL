@@ -22,7 +22,7 @@ Si entra, verás CREATE TABLE
 
 6. Escribe ALTER TABLE Maquillaje ADD Stock INT;
    Así creamos una columna
-Le estamos diciendo que en la tabla Pinturas, añada una columna llamada Stock de tipo de dato INT, ya que el valor que añadiremos será numérico.
+Le estamos diciendo que en la tabla Maquillaje, añada una columna llamada Stock de tipo de dato INT, ya que el valor que añadiremos será numérico.
 7. Escribe ALTER TABLE Maquillaje ADD Color VARCHAR(15);
 Dentro de la tabla Pinturas, añade la columne Color. Tipo de dato VARCHAR.
 Recuerda que Varchar lo usamos para cadenas y entre paréntesis colocamos el número de caracteres que soporta.
