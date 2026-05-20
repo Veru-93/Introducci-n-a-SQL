@@ -1,4 +1,4 @@
-1. Instala POSTGRESQL, no olvides incluir pgAdmin4 en https://www.enterprisedb.com/downloads/postgres-postgresql-downloads (No olvides guardar tu contraseña en algún lado, en el futuro lo agradecerás)
+1. Instala POSTGRESQL https://www.enterprisedb.com/downloads/postgres-postgresql-downloads (No olvides guardar tu contraseña en algún lado, en el futuro lo agradecerás)
 2. Abre la bash psql del sistema
 Click intro al local host, database y usuario. Introduce la contraseña que guardaste (si la perdiste...mira que te avisé ¬¬)
 
@@ -32,8 +32,9 @@ SELECT * FROM Maquillaje;
 > Utilizamos SELECT cuando queremos consultar un dato
 > Utilizamos * para ver todo el contenido 
 > Después de FROM necesitamos saber a qué tabla estamos consultando, ya que otras veces tendremos muchas tablas relacionadas entre sí y hay que especificar cuál. 
->
+
 Deberías ver la tabla que has creado
+
 9. Continua escribendo 
 INSERT INTO Maquillaje (Stock,Color) VALUES (5, 'Azul');
 
